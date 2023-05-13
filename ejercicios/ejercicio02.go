@@ -26,6 +26,6 @@ func MultTable() {
 	}
 
 	for i := 1; i <= 10; i++ {
-		fmt.Println(i * num1)
+		fmt.Printf("%d x %d = %d \n", num1, i, i*num1)
 	}
 }
