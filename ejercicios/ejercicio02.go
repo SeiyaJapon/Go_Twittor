@@ -9,8 +9,9 @@ import (
 
 var num1 int
 var err error
+var text string
 
-func MultTable() {
+func MultTable() string {
 	for {
 		scanner := bufio.NewScanner(os.Stdin)
 
@@ -26,6 +27,8 @@ func MultTable() {
 	}
 
 	for i := 1; i <= 10; i++ {
-		fmt.Printf("%d x %d = %d \n", num1, i, i*num1)
+		text += fmt.Sprintf("%d x %d = %d \n", num1, i, i*num1)
 	}
+
+	return text
 }
