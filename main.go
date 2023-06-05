@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/SeiyaJapon/golang/go_twittor/maps"
+	"github.com/SeiyaJapon/golang/go_twittor/users"
 )
 
 func main() {
@@ -19,5 +19,7 @@ func main() {
 
 	// arrayslices.Capacity()
 
-	maps.ShowMaps()
+	// maps.ShowMaps()
+
+	users.SingUpUser()
 }
