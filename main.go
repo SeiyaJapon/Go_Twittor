@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/SeiyaJapon/golang/go_twittor/files"
+	"github.com/SeiyaJapon/golang/go_twittor/maps"
 )
 
 func main() {
@@ -11,5 +11,13 @@ func main() {
 
 	//files.ReadFile()
 
-	files.ReadFile2()
+	// files.ReadFile2()
+
+	// functions.Calculates()
+
+	// functions.CallClosure()
+
+	// arrayslices.Capacity()
+
+	maps.ShowMaps()
 }
