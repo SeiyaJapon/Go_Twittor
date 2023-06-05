@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/SeiyaJapon/golang/go_twittor/users"
+	"github.com/SeiyaJapon/golang/go_twittor/ejer_interfaces"
+	"github.com/SeiyaJapon/golang/go_twittor/models"
 )
 
 func main() {
@@ -21,5 +22,13 @@ func main() {
 
 	// maps.ShowMaps()
 
-	users.SingUpUser()
+	// users.SingUpUser()
+
+	Pepe := new(models.Man)
+
+	ejer_interfaces.HumansBreathing(Pepe)
+
+	Lola := new(models.Woman)
+
+	ejer_interfaces.HumansBreathing(Lola)
 }
