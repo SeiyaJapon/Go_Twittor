@@ -1,8 +1,7 @@
 package main
 
 import (
-	"github.com/SeiyaJapon/golang/go_twittor/ejer_interfaces"
-	"github.com/SeiyaJapon/golang/go_twittor/models"
+	"github.com/SeiyaJapon/golang/go_twittor/defer_panic"
 )
 
 func main() {
@@ -24,11 +23,13 @@ func main() {
 
 	// users.SingUpUser()
 
-	Pepe := new(models.Man)
+	// Pepe := new(models.Man)
 
-	ejer_interfaces.HumansBreathing(Pepe)
+	// ejer_interfaces.HumansBreathing(Pepe)
 
-	Lola := new(models.Woman)
+	// Lola := new(models.Woman)
 
-	ejer_interfaces.HumansBreathing(Lola)
+	// ejer_interfaces.HumansBreathing(Lola)
+
+	defer_panic.PanicExample()
 }
