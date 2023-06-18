@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/SeiyaJapon/golang/go_twittor/defer_panic"
+	"github.com/SeiyaJapon/golang/go_twittor/goroutines"
 )
 
 func main() {
@@ -31,5 +31,11 @@ func main() {
 
 	// ejer_interfaces.HumansBreathing(Lola)
 
-	defer_panic.PanicExample()
+	// defer_panic.PanicExample()
+
+	chan1 := make(chan bool)
+
+	go goroutines.MyNameSlow("Francisco Pérez", chan1)
+
+	<-chan1 // awake
 }
