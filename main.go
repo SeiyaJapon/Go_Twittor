@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/SeiyaJapon/golang/go_twittor/goroutines"
-)
+import "github.com/SeiyaJapon/golang/go_twittor/middleware"
 
 func main() {
 	// fmt.Println(ejercicios.MultTable())
@@ -33,9 +31,13 @@ func main() {
 
 	// defer_panic.PanicExample()
 
-	chan1 := make(chan bool)
+	// chan1 := make(chan bool)
 
-	go goroutines.MyNameSlow("Francisco Pérez", chan1)
+	// go goroutines.MyNameSlow("Francisco Pérez", chan1)
 
-	<-chan1 // awake
+	// <-chan1 // awake
+
+	// webserver.MyWebserver()
+
+	middleware.MyMiddleware()
 }
