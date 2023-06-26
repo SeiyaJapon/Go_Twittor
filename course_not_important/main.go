@@ -1,7 +1,5 @@
 package main
 
-import "github.com/SeiyaJapon/golang/go_twittor/middleware"
-
 func main() {
 	// fmt.Println(ejercicios.MultTable())
 
@@ -39,5 +37,5 @@ func main() {
 
 	// webserver.MyWebserver()
 
-	middleware.MyMiddleware()
+	// middleware.MyMiddleware()
 }
